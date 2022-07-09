@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    opacity: 0.98;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    border:2px solid rgb(7, 7, 7);
+    background:url('headphnbg.jpg')no-repeat center center/cover;
+    
+}
+.box{
+    height:80vh;
+    width:60%;
+    margin-left: 80px;
+    border-radius: 30px;
+    margin:100px 280px;
+    border:5px solid rgb(101, 190, 60);
+}
+.h1{
+    color: blue;
+}
+
+.myform {
+    margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.myinput{
+    font-size: 18px;
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    border:2px solid rgb(189, 186, 186);
+    border-radius: 18px;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.8;
+    outline: none;
+}
+.myinputq{
+    font-size: 18px;
+    width: 50%;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 9px;
+    margin: 27px;
+    border:2px solid rgb(189, 186, 186);
+    border-radius: 20px;
+    outline: none;
+    opacity: 0.8;
+    height:200px;
+
+}
+.btn{
+    font-size: 18px;
+    width:150px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 15px;
+    border:2px solid rgb(189, 186, 186);
+    cursor: pointer;
+    margin-right: 30px;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    opacity: 0.95;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    background:url('headphnbg.jpg')no-repeat center center/cover;
+    
+}
+
+
+.box{
+    height:10vh;
+    width:80%;
+    margin-left: 80px;
+}
+.box #first{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    color: white;
+    margin-top: -260px;
+    opacity: 1.5;
+    padding-right: 30px;
+    font-size: 70px;
+    margin-left: 380px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.box #second{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    margin-top: -260px;
+    font-weight: bolder;
+    text-shadow:black;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 660px;
+    color: rgb(221, 221, 81);
+
+}
+
+.box #para2{
+    font-family: 'Roboto Slab', serif;
+    margin-top: -190px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 110px;
+}
+.box #para1{
+    margin-top: -250px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    margin-left: 160px;
+}
+
