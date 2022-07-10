@@ -4,17 +4,17 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Document
+    title Help
     link(rel='stylesheet' href='helpst.css')
   body
     .container
       .box 
 
         h1 Spotify Related Queries
-        form(action="/help",method="post" class="myform")
+        form(action="/help",method="POST" class="myform")
 
           input(type="text", class="myinput", name="name", placeholder="Enter your name")
           input(type="email", class="myinput", name="email", placeholder="Enter your email")
-          input(type="text", class="myinputq", name="helptxt", placeholder="Enter your Query")
+          input(type="text", class="myinputq", name="desc", placeholder="Enter your Query")
           button(class="btn")
              |Submit
